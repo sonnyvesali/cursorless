@@ -10,4 +10,5 @@ export const dartScopeSupport: LanguageScopeSupportFacetMap = {
   map: supported,
   class: supported,
   className: supported,
+  functionCall: supported,
 };

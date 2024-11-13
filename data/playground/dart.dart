@@ -18,5 +18,11 @@ foo() {
 }
 
 class Something{
-  
+  hi({required String param,}) {
+    //this
+  }
+
+    somethingNew() {
+       hi(param:'there');   
+  }
 }

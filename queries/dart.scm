@@ -21,3 +21,8 @@
 (class_definition
   name: (_) @className
 ) @class @className.domain
+
+;;!! foo();
+;;!  ^^^^^^
+
+(expression_statement) @functionCall
